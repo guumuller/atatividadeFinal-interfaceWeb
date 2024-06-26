@@ -50,17 +50,17 @@ header img{
 .pesquisar{
     padding-top: 20px;
     float: right;
-    margin-right: 66px;
+    /* margin-right: 66px; */
     margin-right: 200px;
 }
 
 header input{
     background-image: url(images/lupa.png);
-    background-position: left;
+    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
     background-size: 15px;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
-    padding: 10px 15px;
+    padding: 10px 50px;
     padding-right: 0px;
     border-radius: 50px;
     border: 1px solid black;
