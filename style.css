@@ -56,13 +56,14 @@ header .logo a img{
 
 .logo{
     position: absolute;
-    left: 594px;
-    top: 37px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .pesquisar{
     position: absolute;
-    right: 80px;
+    right: 90px;
     top: 60px;
 }
 
@@ -86,12 +87,22 @@ header input ::-webkit-search-cancel-button{
 
 .sacola{
     position: absolute;
-    right: 20px;
-    top: 63px;
+    right: 30px;
+    top: 60px;
 }
 
 .sacola img{
-    height: 30px;
+    height: 35px;
+    border: 1px solid   transparent;
+    transition: 0.5s;
+}
+
+.sacola img:hover{
+    opacity: 80%;
+    box-shadow: 1px 1px 5px #000;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 .banner{
@@ -99,7 +110,7 @@ header input ::-webkit-search-cancel-button{
     background-position: center;
     background-size: cover;
     text-align: center;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
