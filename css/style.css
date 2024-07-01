@@ -149,7 +149,7 @@ header input ::-webkit-search-cancel-button{
 
 footer{
     background-color: #D9D9D9;
-    border-top: solid 2px black;
+    border-top: solid 2px #000;
 }
 
 .logo-footer{
