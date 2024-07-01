@@ -183,6 +183,10 @@ header input ::-webkit-search-cancel-button{
     cursor: pointer;
 }
 
+.contato button:active{
+    box-shadow: none;
+}
+
 .div3 span{
     color: #fff;
 }
