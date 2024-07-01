@@ -87,7 +87,7 @@ header input ::-webkit-search-cancel-button{
 
 .sacola{
     position: absolute;
-    right: 30px;
+    right: 42px;
     top: 60px;
 }
 
@@ -98,6 +98,27 @@ header input ::-webkit-search-cancel-button{
 }
 
 .sacola img:hover{
+    opacity: 80%;
+    box-shadow: 1px 1px 5px #000;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.avatar{
+    position: absolute;
+    right: 0px;
+    top: 61px;
+}
+
+.avatar img{
+    height: 27px;
+    padding: 4px;
+    border: 1px solid   transparent;
+    transition: 0.5s;
+}
+
+.avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
     /* border: 1px solid #000; */
@@ -124,4 +145,26 @@ header input ::-webkit-search-cancel-button{
     font-style: italic;
     text-shadow: 6px 3px 2px #000;
     padding: 10px;
+}
+
+footer{
+    background-color: #D9D9D9;
+}
+
+.logo-footer{
+   text-align: center;
+   padding: 30px;
+}
+
+.logo-footer img{
+    width: 150px;
+}
+
+.logo-footer p{
+    margin: 0;
+}
+
+.contato-footer{
+    text-align: center;
+    padding-bottom: 20px;
 }

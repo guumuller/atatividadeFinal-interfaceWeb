@@ -69,7 +69,7 @@ header .logo a img{
 
 header input{
     background-image: url(images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
+    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/
     background-size: 15px;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
@@ -87,7 +87,7 @@ header input ::-webkit-search-cancel-button{
 
 .sacola{
     position: absolute;
-    right: 30px;
+    right: 42px;
     top: 60px;
 }
 
@@ -103,4 +103,95 @@ header input ::-webkit-search-cancel-button{
     /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
+}
+
+.avatar{
+    position: absolute;
+    right: 0px;
+    top: 61px;
+}
+
+.avatar img{
+    height: 27px;
+    padding: 4px;
+    border: 1px solid   transparent;
+    transition: 0.5s;
+}
+
+.avatar img:hover{
+    opacity: 80%;
+    box-shadow: 1px 1px 5px #000;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.contato{
+    background-color: #8D796E;
+    overflow: hidden;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.div1{
+    display: inline-block;
+    position: relative;
+    top: -190px;
+    padding-left: 133px;
+}
+
+.div2{
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.div3{
+    display: inline-block;
+    position: relative;
+    top: -290px;
+}
+
+.contato input{
+    display: block;
+    margin-bottom: 50px;
+    background-color: #8D796E;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px;
+    width: 300px;
+}
+
+.contato textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contato button{
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 1px;
+    background-color: #8D796E;
+    box-shadow: 2px 2px 2px #000;
+    margin-top: 20px;
+}
+
+.contato button:hover{
+    background-color: #b8a69d;
+    cursor: pointer;
+}
+
+.div3 span{
+    color: #fff;
+}
+.div3 a img{
+    width: 30px;
+    background-color: darkgrey;
+    border-radius: 50px;
+    border: solid 1px #000;
+}
+
+.div3 span a img{
+    width: 30px;
+    border: solid 1px #000;
 }
