@@ -255,6 +255,10 @@ header input ::-webkit-search-cancel-button{
     box-shadow: 5px 5px 10px #000;
 }
 
+.botao-whats:active{
+    box-shadow: none;
+}
+
 .botao-whats a{ 
     text-decoration: none;
     color: #fff;
