@@ -160,6 +160,7 @@ header input ::-webkit-search-cancel-button{
     overflow: hidden;
     background-color: #D9D9D9;
     padding-left: 97px;
+    margin-top: 20px;
 }
 
 .maisvendidos h3{
@@ -249,28 +250,23 @@ header input ::-webkit-search-cancel-button{
     position: fixed;
     bottom: 25px;
     right: 25px;
-    border-radius: 10px;
-    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
 }
 
 .botao-whats a{ 
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
-    padding: 5px;
-    display: block;
 }
 
 .botao-whats button{
     background-color: #235B22;
     border: none;
-    /* display: inline-block; */
 }
 
 .botao-whats button img{
-    padding: 5px;
     width: 30px;
-    display: block;
+    float: left;
 }
 
 footer{
