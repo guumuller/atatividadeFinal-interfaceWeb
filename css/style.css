@@ -216,6 +216,27 @@ header input ::-webkit-search-cancel-button{
     box-shadow: none;
 }
 
+.shop{
+    text-align: center;
+}
+
+.shop h1{
+    font-style: italic;
+    font-size: 50px;
+    color: #000;
+    
+}
+
+.shop a{
+    text-decoration: none;
+}
+
+.shop a h1:hover{
+    color: #3f3e3e;
+    font-size: 50px;
+   
+}
+
 footer{
     background-color: #D9D9D9;
     border-top: solid 2px #000;
