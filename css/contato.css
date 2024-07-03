@@ -68,7 +68,7 @@ header .logo a img{
 }
 
 header input{
-    background-image: url(/images/lupa.png);
+    background-image: url(images/lupa.png);
     background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/
     background-size: 15px;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .contato{
-    background-color: #8d796e;
+    background-color: #8D796E;
     overflow: hidden;
     margin: 30px;
     padding: 50px;
@@ -164,12 +164,9 @@ header input ::-webkit-search-cancel-button{
 
 .contato textarea{
     display: block;
-    margin-top: 10px;
     margin-bottom: 10px;
     height: 110px;
     width: 300px;
-    border-radius: 12px;
-    box-shadow: 2px 2px 3px #2b1f19;
 }
 
 .contato button{
@@ -177,7 +174,7 @@ header input ::-webkit-search-cancel-button{
     border-radius: 3px;
     border: solid 1px;
     background-color: #8D796E;
-    box-shadow: 2px 2px 2px #2b1f19;
+    box-shadow: 2px 2px 2px #000;
     margin-top: 20px;
 }
 
