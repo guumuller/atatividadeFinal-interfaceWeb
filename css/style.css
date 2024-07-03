@@ -250,6 +250,109 @@ header input ::-webkit-search-cancel-button{
     background-color: #fff;
 }
 
+
+
+.vestuario{
+    text-align: center;  
+}
+
+.vestuario h1{
+    display: inline;
+    font-size: 80px;
+}
+
+.vestuario img{
+    display: inline;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.vestuario button{
+    border: none;
+    background-color: #D9D9D9;
+    padding: 20px;
+    width: 641px;
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+.vestuario button:hover{
+    cursor: pointer;
+}
+
+.underwear{
+    text-align: center;
+    
+    
+}
+
+.underwear h1{
+    display: inline;
+    font-size: 80px;
+}
+
+.underwear img{
+    display: inline;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.underwear button{
+    border: none;
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+.underwear button:hover{
+    cursor: pointer;
+}
+
+.underwear button:active{
+    box-shadow: none;
+}
+
+.vestuario button:active{
+    box-shadow: none;
+}
+
+.calcados button:active{
+    box-shadow: none;
+}
+
+.calcados{
+    text-align: center;
+    
+    
+}
+
+.calcados h1{
+    display: inline;
+    font-size: 80px;
+}
+
+.calcados img{
+    display: inline;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.calcados button{
+    border: none;
+    background-color: #D9D9D9;
+    padding: 20px;
+    width: 641px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    border-radius: 10px;
+}
+
+.calcados button:hover{
+    cursor: pointer;
+}
 .botao-whats{
     background-color: #235B22;
     width: 200px;
@@ -260,6 +363,19 @@ header input ::-webkit-search-cancel-button{
     right: 25px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #000;
+}
+
+.nossas-marcas{
+    background-color: #D9D9D9;
+}
+
+.nossas-marcas img{
+    width: 300px;
+}
+
+.baw{
+    background-color: #fff;
+    padding: 40px;
 }
 
 .botao-whats:active{
