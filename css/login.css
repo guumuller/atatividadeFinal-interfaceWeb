@@ -132,8 +132,8 @@ footer{
 }
 
 .logo-footer{
-   text-align: center;
-   padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .logo-footer img{
@@ -147,4 +147,97 @@ footer{
 .contato-footer{
     text-align: center;
     padding-bottom: 20px;
+}
+
+/*Começo da estilização do conteúdo*/
+
+.conteudo{
+    background-color: #8D796E;
+    overflow: hidden;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.container-esquerda{
+    display: inline-block;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+}
+.container-esquerda h1{
+    font-size: 45px;
+    font-weight: 400;
+    display: block;
+    text-align: left;
+}
+
+
+
+.container-direita{
+    display: inline-block;
+    position: relative;
+    background-color: #D9D9D9;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-direita h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.container-direita input{
+    display: block;
+    background-color: #D9D9D9;
+    width: 80%;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 4px;
+}
+
+.container-direita label {
+    display: block;
+    text-align: left;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 16px;
+}
+
+.container-direita button {
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A48573;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-direita img {
+    width: 30px;
+    vertical-align:middle;
+}
+
+.container-direita a {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-direita a img {
+    vertical-align: middle;
+    margin-right: 10px;
 }
