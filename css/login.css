@@ -153,26 +153,27 @@ footer{
 
 .conteudo{
     background-color: #8D796E;
-    overflow: hidden;
-    margin: 30px;
-    padding: 50px;
-    border-radius: 10px;
+    overflow:hidden;
+    margin: 20px;
+    padding: 40px;
+    height: 50vh;
+    width: 90vw;
 }
 
 .container-esquerda{
     display: inline-block;
     position: relative;
     width: 50vw;
-    height: 50vh;
+    height: 30vh;
 }
+
 .container-esquerda h1{
     font-size: 45px;
     font-weight: 400;
     display: block;
-    text-align: left;
+    text-align: center
+    
 }
-
-
 
 .container-direita{
     display: inline-block;
