@@ -126,6 +126,29 @@ header input ::-webkit-search-cancel-button{
     transition: 0.5s;
 }
 
+.sobre{
+    text-align: center;
+    padding: 100px;
+}
+
+.sobre h1{
+   font-size: 60px; 
+}
+
+.sobre p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.quemsomos{
+    text-align: center;
+    padding: 100px;
+}
+
+.quemsomos h1{
+   font-size: 60px; 
+}
+
 footer{
     background-color: #D9D9D9;
     border-top: solid 2px black;
