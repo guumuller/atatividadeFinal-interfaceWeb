@@ -426,6 +426,30 @@ header input ::-webkit-search-cancel-button{
     width: 200px;
 }
 
+
+.noticias{
+    text-align: center;
+}
+
+.noticias h1{
+    font-size: 50px;
+    font-style: italic;
+    color: #000;
+}
+
+.img-noticias{
+    display: inline;
+}
+
+.img-noticias img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+
 .botao-whats:active{
     box-shadow: none;
 }
