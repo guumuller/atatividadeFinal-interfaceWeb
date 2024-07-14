@@ -149,6 +149,29 @@ header input ::-webkit-search-cancel-button{
    font-size: 60px; 
 }
 
+.container{
+    padding: 40px 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.container #imagemperfil{
+    width: 310px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px #000;
+}
+
+.container .perfil{
+    display: table-caption;
+}
+
+.links a{
+    display: block;
+}
+
+.links a img{
+    width: 20px;
+}
+
 footer{
     background-color: #D9D9D9;
     border-top: solid 2px black;
