@@ -156,30 +156,35 @@ footer{
     overflow:hidden;
     margin: 20px;
     padding: 40px;
-    height: 420px;
+    height: 470px;
 }
 
 .container-esquerda{
-    display: inline-block;
-    position: relative;
+    float: left;
     width: 50vw;
-    height: 30vh;
+    height: 35vh;
+    text-align: center;
+    margin-top: 70px;
 }
 
 .container-esquerda h1{
     font-size: 45px;
     font-weight: 400;
     display: block;
-    text-align: center
-    
+    text-align: center;
+    margin: 0;
+}
+
+.container-esquerda img{
+    width: 400px;
 }
 
 .container-direita{
     display: inline-block;
     position: relative;
     background-color: #D9D9D9;
-    width: 400px;
-    padding: 20px;
+    width: 500px;
+    padding: 40px;
     border-radius: 10px;
     text-align: center;
 }
@@ -209,7 +214,7 @@ footer{
 }
 
 .container-direita button {
-    width: 340px;
+    width: 415px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -226,9 +231,10 @@ footer{
     vertical-align:middle;
 }
 
-.container-direita a {
+.container-direita .botaogoogle{
     display: inline-block;
     width: 80%;
+    margin-bottom: 20px;
     padding: 10px;
     color: #000;
     border: 1px solid #000;
@@ -240,4 +246,10 @@ footer{
 .container-direita a img {
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.divesquecisenha a{
+    margin-top: 50px;
+    text-decoration: none;
+    color:brown ;
 }

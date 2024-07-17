@@ -154,12 +154,13 @@ header input ::-webkit-search-cancel-button{
 
 .contato input{
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: #8D796E;
     outline: none;
     border: none;
     border-bottom: solid 1px;
     width: 300px;
+    padding-top: 10px;
 }
 
 .contato textarea{
@@ -167,6 +168,7 @@ header input ::-webkit-search-cancel-button{
     margin-bottom: 10px;
     height: 110px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .contato button{

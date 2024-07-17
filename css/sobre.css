@@ -143,6 +143,7 @@ header input ::-webkit-search-cancel-button{
 
 .quemsomos{
     text-align: center;
+    height: 800px;
 }
 
 .quemsomos h1{
@@ -155,9 +156,9 @@ header input ::-webkit-search-cancel-button{
     display: inline-block;
 }
 .container #imagemperfil{
+    height: 310px;
     width: 310px;
     border-radius: 50%;
-    box-shadow: 1px 1px 15px #000;
 }
 
 .container .perfil{
@@ -166,6 +167,9 @@ header input ::-webkit-search-cancel-button{
 
 .links a{
     display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
 }
 
 .links a img{
@@ -193,4 +197,8 @@ footer{
 .contato-footer{
     text-align: center;
     padding-bottom: 20px;
+}
+
+a .perfil{
+    text-decoration: none;
 }
