@@ -152,7 +152,8 @@ footer{
 /*Começo da estilização do conteúdo*/
 
 .conteudo{
-    background-color: #8D796E;
+    /* background-color: #8D796E; */
+    background-color: #684c8f;
     overflow:hidden;
     margin: 20px;
     padding: 40px;
@@ -218,7 +219,8 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #A48573;
+    /* background-color: #A48573; */
+    background-color: #391450;
     color: white;
     font-size: 16px;
     border: none;

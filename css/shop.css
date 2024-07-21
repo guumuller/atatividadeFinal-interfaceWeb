@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: helvetica, verdana, sans-serif;
     padding: 0;
@@ -212,6 +216,37 @@ header input ::-webkit-search-cancel-button{
 
 .card button:active{
     box-shadow: none;
+}
+
+.botao-whats{
+    background-color: #235B22;
+    width: 210px;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.botao-whats:active{
+    box-shadow: none;
+}
+
+.botao-whats a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao-whats button{
+    background-color: #235B22;
+    border: none;
+}
+
+.botao-whats button img{
+    width: 30px;
+    float: left;
 }
 
 footer{

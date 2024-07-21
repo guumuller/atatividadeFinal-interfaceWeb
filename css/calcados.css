@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: helvetica, verdana, sans-serif;
     padding: 0;
@@ -126,85 +130,140 @@ header input ::-webkit-search-cancel-button{
     transition: 0.5s;
 }
 
-.contato{
-    /* background-color: #8D796E; */
-    background-color: #684c8f;
+.calcados{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.calcados h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.camisa{
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+}
+
+
+.btn a button{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 110px;
+    margin: 10px 20px;
+}
+
+.img{
+    align-items: center;
+    text-align: center;
+}
+
+.img img{
+    width: 85px;
+    padding: 10px 180px;
+}
+
+
+.container{
+    width: 1250px;
     overflow: hidden;
-    margin: 30px;
-    padding: 50px;
+    margin: 20px auto;
+}
+
+
+.maisvendidos h3{
+    margin: 0;
+}
+
+.seta-esquerda{
+    float: left;
+    padding-top: 145px;
+}
+
+.seta-direita{
+    float: left;
+    padding-top: 145px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    margin: 10px 25px;
+    float: left;
+    text-align: center;
     border-radius: 10px;
+    padding-bottom: 20px;
+    /* padding: 7px; */
+    box-shadow: 3px 3px 10px #000;
 }
 
-.div1{
-    display: inline-block;
-    position: relative;
-    top: -230px;
-    padding-left: 133px;
+.card h6{
+    margin: 0;
+    font-size: 20px;
 }
 
-.div2{
-    display: inline-block;
-    margin-left: 120px;
+.card p{
+    font-size: 25px;
 }
 
-.div3{
-    display: inline-block;
-    position: relative;
-    top: -230px;
-}
-
-.contato input{
-    display: block;
-    margin-bottom: 30px;
-    /* background-color: #8D796E; */
-    background-color: #572b69;
-    outline: none;
-    border: none;
-    border-bottom: solid 1px;
-    width: 300px;
+.card img{
+    width: 175px;
     padding-top: 10px;
-    color: #fff;
 }
 
-.contato textarea{
-    display: block;
-    margin-bottom: 10px;
-    height: 110px;
-    width: 300px;
-    border-radius: 10px;
-}
-
-.contato button{
-    padding: 5px;
-    border-radius: 3px;
-    border: solid 1px;
-    /* background-color: #8D796E; */
-    background-color: #391450;
+.card button{
+    background-color: #8D796E;
+    border-radius: 5px;
+    border: solid 1px #000;
     box-shadow: 2px 2px 2px #000;
-    margin-top: 20px;
-    color: #fff;
+    padding: 3px;
 }
 
-.contato button:hover{
+.card button:hover{
     background-color: #b8a69d;
     cursor: pointer;
 }
 
-.contato button:active{
+.card button:active{
     box-shadow: none;
 }
 
-.div3 span{
+.botao-whats{
+    background-color: #235B22;
+    width: 210px;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.botao-whats:active{
+    box-shadow: none;
+}
+
+.botao-whats a{ 
+    text-decoration: none;
     color: #fff;
 }
 
-.div3 a img{
+.botao-whats button{
+    background-color: #235B22;
+    border: none;
+}
+
+.botao-whats button img{
     width: 30px;
-    background-color: darkgrey;
-    border-radius: 50px;
-    border: solid 1px #000;
-    margin-top: 40px;
-    padding: 5px;
+    float: left;
 }
 
 footer{
