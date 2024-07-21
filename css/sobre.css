@@ -132,7 +132,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .sobre h1{
-   font-size: 60px; 
+    font-size: 60px; 
 }
 
 .sobre p{
@@ -147,7 +147,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .quemsomos h1{
-   font-size: 60px; 
+    font-size: 60px; 
 }
 
 .container{
@@ -182,8 +182,8 @@ footer{
 }
 
 .logo-footer{
-   text-align: center;
-   padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .logo-footer img{

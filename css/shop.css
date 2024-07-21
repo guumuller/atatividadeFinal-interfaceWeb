@@ -131,14 +131,12 @@ header input ::-webkit-search-cancel-button{
     font-size: 40px;
 }
 
-.main{
-}
 
 .btn a button{
     font-size: 30px;
     font-weight: bold;
     padding: 10px 110px;
-    margin: 10px 50px;
+    margin: 10px 20px;
 }
 
 .img{
@@ -148,7 +146,7 @@ header input ::-webkit-search-cancel-button{
 
 .img img{
     width: 85px;
-    padding: 10px 211px;
+    padding: 10px 180px;
 }
 
 
@@ -222,8 +220,8 @@ footer{
 }
 
 .logo-footer{
-   text-align: center;
-   padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .logo-footer img{
