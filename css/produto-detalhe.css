@@ -152,7 +152,6 @@ header input ::-webkit-search-cancel-button{
     padding: 60px 0;
     margin-left: 60px;
     float: left;
-
 }
 
 .informacoes{
@@ -209,10 +208,59 @@ header input ::-webkit-search-cancel-button{
     color: #000;
 }
 
+.tamanho a:hover{
+    background-color: #000;
+    color: #dedbdb;
+    transition: .2s;
+}
+
 .add-carrinho a{
     display: block;
+    padding: 15px 30px;
+    background-color: rgb(76, 224, 76);
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.add-carrinho a:hover{
+    background-color: rgb(114, 238, 114);
 }
 
 .container .sobre-produto .add-carrinho{
     text-align: center;
+    width: 370px;
+    margin:  10px auto;
+}
+
+.botao-whats{
+    background-color: #235B22;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.botao-whats:active{
+    box-shadow: none;
+}
+
+.botao-whats a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao-whats button{
+    background-color: #235B22;
+    border: none;
+}
+
+.botao-whats button img{
+    width: 30px;
+    float: left;
 }

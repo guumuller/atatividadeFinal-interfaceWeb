@@ -64,12 +64,12 @@ header .logo a img{
 
 .pesquisar{
     position: absolute;
-    right: 90px;
+    right: 100px;
     top: 60px;
 }
 
 header input{
-    background-image: url(images/lupa.png);
+    background-image: url(/images/lupa.png);
     background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
     background-size: 15px;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ header input ::-webkit-search-cancel-button{
 
 .sacola{
     position: absolute;
-    right: 30px;
+    right: 52px;
     top: 60px;
 }
 
@@ -108,7 +108,7 @@ header input ::-webkit-search-cancel-button{
 
 .avatar{
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 61px;
 }
 
