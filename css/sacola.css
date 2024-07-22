@@ -285,6 +285,17 @@ header input ::-webkit-search-cancel-button{
     align-items: center;
 }
 
+.info_subtotal{
+    border: solid 1px #000;
+    margin-top: 30px;
+    width: 500px;
+    background-color: #ffffff;
+    /*text-align: center;*/
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+}
+
 .h4{
     font-size: 18px;
 }
@@ -303,6 +314,33 @@ header input ::-webkit-search-cancel-button{
     border-radius: 10px;
     display: inline-block;
     align-items: center;
+}
+
+.info_finalizar:hover{
+    background-color: #028400;
+    box-shadow: 1px 1px 5px #000;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.info_continuar{
+    border: solid 1px #000;
+    margin-top: 10px;
+    width: 500px;
+    background-color: #ffffff;
+    /*text-align: center;*/
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+}
+
+.info_continuar:hover{
+    background-color: #bebebe;
+    box-shadow: 1px 1px 5px #000;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 /*footer*/
