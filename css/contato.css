@@ -69,8 +69,7 @@ header .logo a img{
 
 header input{
     background-image: url(/images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
-    background-size: 15px;
+    background-position: 15px center;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
     padding: 10px 50px;
@@ -100,7 +99,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -121,13 +119,11 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
 
 .contato{
-    /* background-color: #8D796E; */
     background-color: #684c8f;
     overflow: hidden;
     margin: 30px;
@@ -156,7 +152,6 @@ header input ::-webkit-search-cancel-button{
 .contato input{
     display: block;
     margin-bottom: 30px;
-    /* background-color: #8D796E; */
     background-color: #572b69;
     outline: none;
     border: none;
@@ -178,7 +173,6 @@ header input ::-webkit-search-cancel-button{
     padding: 5px;
     border-radius: 3px;
     border: solid 1px;
-    /* background-color: #8D796E; */
     background-color: #391450;
     box-shadow: 2px 2px 2px #000;
     margin-top: 20px;
@@ -186,7 +180,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .contato button:hover{
-    background-color: #b8a69d;
+    background-color: #8447a9;
     cursor: pointer;
 }
 

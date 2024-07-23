@@ -70,7 +70,7 @@ header .logo a img{
 
 header input{
     background-image: url(/images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
+    background-position: 15px center;
     background-size: 15px;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
@@ -101,7 +101,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -122,13 +121,11 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
 
 /*começo de tudo*/
-
 
 .tudo{
     display: inline;
@@ -146,11 +143,8 @@ header input ::-webkit-search-cancel-button{
 .produto{
     border: solid 1px #000;
     margin-top: 30px;
-    /*margin-bottom: 40px;
-    margin-left: 150px;*/
     width: 790px;
     background-color: #ffffff;
-    /*text-align: center;*/
     border-radius: 10px;
     display: inline-block;
     float: left;
@@ -196,7 +190,6 @@ header input ::-webkit-search-cancel-button{
 .lixo img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -259,10 +252,6 @@ header input ::-webkit-search-cancel-button{
     margin-top: 48px;  
 }
 
-
-
-/*começo de direita*/
-
 .direita{
     display: inline-block;
     position: relative;
@@ -280,7 +269,6 @@ header input ::-webkit-search-cancel-button{
     margin-top: 10px;
     width: 500px;
     background-color: #ffffff;
-    /*text-align: center;*/
     border-radius: 10px;
     display: inline-block;
     align-items: center;
@@ -291,7 +279,6 @@ header input ::-webkit-search-cancel-button{
     margin-top: 30px;
     width: 500px;
     background-color: #ffffff;
-    /*text-align: center;*/
     border-radius: 10px;
     display: inline-block;
     align-items: center;
@@ -311,7 +298,6 @@ header input ::-webkit-search-cancel-button{
     margin-top: 10px;
     width: 500px;
     background-color: #05D101;
-    /*text-align: center;*/
     border-radius: 10px;
     display: inline-block;
     align-items: center;
@@ -320,7 +306,6 @@ header input ::-webkit-search-cancel-button{
 .info_finalizar:hover{
     background-color: #028400;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -330,7 +315,6 @@ header input ::-webkit-search-cancel-button{
     margin-top: 10px;
     width: 500px;
     background-color: #ffffff;
-    /*text-align: center;*/
     border-radius: 10px;
     display: inline-block;
     align-items: center;
@@ -339,7 +323,6 @@ header input ::-webkit-search-cancel-button{
 .info_continuar:hover{
     background-color: #bebebe;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -353,8 +336,8 @@ footer{
 }
 
 .logo-footer{
-   text-align: center;
-   padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .logo-footer img{

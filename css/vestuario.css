@@ -73,7 +73,7 @@ header .logo a img{
 
 header input{
     background-image: url(/images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
+    background-position: 15px center;
     background-size: 15px;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
@@ -104,7 +104,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -125,7 +124,6 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -138,7 +136,6 @@ header input ::-webkit-search-cancel-button{
 
 .vestuario h1{
     display: inline-block;
-    /* float: left; */
     font-size: 30px;
     font-weight: normal;
     font-style: italic;
@@ -149,7 +146,6 @@ header input ::-webkit-search-cancel-button{
 
 .camisa{
     display: inline-block;
-    /* float: left; */
     width: 50px;
     vertical-align: middle;
 }
@@ -202,7 +198,6 @@ header input ::-webkit-search-cancel-button{
     text-align: center;
     border-radius: 10px;
     padding-bottom: 20px;
-    /* padding: 7px; */
     box-shadow: 3px 3px 10px #000;
 }
 

@@ -69,7 +69,7 @@ header .logo a img{
 
 header input{
     background-image: url(/images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
+    background-position: 15px center;
     background-size: 15px;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
@@ -100,7 +100,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -121,7 +120,6 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -154,6 +152,7 @@ header input ::-webkit-search-cancel-button{
     padding: 40px 10px;
     overflow: hidden;
     display: inline-block;
+    text-align: center;
 }
 .container #imagemperfil{
     height: 310px;
@@ -165,15 +164,41 @@ header input ::-webkit-search-cancel-button{
     display: table-caption;
 }
 
+.links{
+    align-items: center;
+    padding-left: 22px;
+}
+
 .links a{
     display: block;
+    width: 100px;
     text-decoration: none;
     color: #000;
     font-weight: lighter;
+    padding: 0;
+    margin: 0 auto 5px;
+}
+
+.links .linkedin{
+    background-image: url(/images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 18px;
+}
+
+.links .github{
+    width: 90px;
+    padding-right: 10px;
+    background-image: url(/images/github.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 18px;
 }
 
 .links a img{
     width: 20px;
+    margin-right: 5px;
+    
 }
 
 footer{

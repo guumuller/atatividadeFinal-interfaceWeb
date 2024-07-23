@@ -73,8 +73,7 @@ header .logo a img{
 
 header input{
     background-image: url(/images/lupa.png);
-    background-position: 15px center;       /* alinhei a escrita da barra de pesquisa   -   Murilo*/ 
-    background-size: 15px;
+    background-position: 15px center;
     background-repeat: no-repeat;
     background-color: rgb(219, 219, 219);
     padding: 10px 50px;
@@ -104,7 +103,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -125,7 +123,6 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }

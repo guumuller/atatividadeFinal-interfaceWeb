@@ -101,7 +101,6 @@ header input ::-webkit-search-cancel-button{
 .sacola img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -122,7 +121,6 @@ header input ::-webkit-search-cancel-button{
 .avatar img:hover{
     opacity: 80%;
     box-shadow: 1px 1px 5px #000;
-    /* border: 1px solid #000; */
     border-radius: 15px;
     transition: 0.5s;
 }
@@ -199,16 +197,6 @@ header input ::-webkit-search-cancel-button{
     width: 175px;
     padding-top: 10px;
 }
-
-
-
-/* .card .bloco1 img{
-    width: 175px;
-}
-
-.card .bloco2 img{
-    width: 10px;
-} */
 
 .card button{
     background-color: #8D796E;
