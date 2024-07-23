@@ -128,39 +128,42 @@ header input ::-webkit-search-cancel-button{
 /*começo de tudo*/
 
 .tudo{
-    display: inline;
+    overflow: hidden;
+    align-items: center;
+    width: 1370px;
+    margin: 0 auto;
 }
 
 /*começo de esquerda*/
 
 .esquerda{
-    width: 800px;
-    height: auto;
-    margin-left: 100px;
-    
+    width: 750px;
+    overflow: hidden;
+    float: left;
+    align-items: center;
+    text-align: center;
 }
 
 .produto{
     border: solid 1px #000;
     margin-top: 30px;
-    width: 790px;
+    width: 740px;
     background-color: #ffffff;
     border-radius: 10px;
     display: inline-block;
-    float: left;
 }
 
 .img_bone img{
     width: 100px;
     height: 100px;
     float: left;
-    margin: 5px 100px 5px 5px;
+    margin: 5px 50px 5px 5px;
     border-radius: 15px;
 }
 
 .h4_bone{
     font-size: 18px;
-    margin-right: 100px;
+    margin-right: 80px;
     float: left;
     margin-top: 46px;
 }
@@ -198,13 +201,13 @@ header input ::-webkit-search-cancel-button{
     width: 100px;
     height: 100px;
     float: left;
-    margin: 5px 100px 5px 5px;
+    margin: 5px 50px 5px 5px;
     border-radius: 15px;
 }
 
 .h4_meia{
     font-size: 18px;
-    margin-right: 105px;
+    margin-right: 85px;
     float: left;
     margin-top: 46px;
 }
@@ -227,13 +230,13 @@ header input ::-webkit-search-cancel-button{
     width: 100px;
     height: 100px;
     float: left;
-    margin: 5px 100px 5px 5px;
+    margin: 5px 50px 5px 5px;
     border-radius: 15px;
 }
 
 .h4_tenis{
     font-size: 18px;
-    margin-right: 102px;
+    margin-right: 82px;
     float: left;
     margin-top: 46px;
 }
@@ -261,7 +264,7 @@ header input ::-webkit-search-cancel-button{
     border-radius: 10px;
     text-align: center;
     border: solid 1px #000;
-    margin: 30px 0px 30px 100px;
+    margin: 30px 0px 30px 50px;
 }
 
 .info{
