@@ -69,7 +69,7 @@ header .logo a img{
 }
 
 header input{
-    background-image: url(/images/lupa.png);
+    background-image: url(../images/lupa.png);
     background-position: 15px center;
     background-size: 15px;
     background-repeat: no-repeat;

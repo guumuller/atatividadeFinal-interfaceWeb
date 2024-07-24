@@ -68,7 +68,7 @@ header .logo a img{
 }
 
 header input{
-    background-image: url(/images/lupa.png);
+    background-image: url(../images/lupa.png);
     background-position: 15px center;
     background-size: 15px;
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .links .linkedin{
-    background-image: url(/images/linkedin.png);
+    background-image: url(../images/linkedin.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 18px;
@@ -189,7 +189,7 @@ header input ::-webkit-search-cancel-button{
 .links .github{
     width: 90px;
     padding-right: 10px;
-    background-image: url(/images/github.png);
+    background-image: url(../images/github.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 18px;
