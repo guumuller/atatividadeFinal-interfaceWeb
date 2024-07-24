@@ -134,6 +134,11 @@ header input ::-webkit-search-cancel-button{
     margin: 10px;
 }
 
+.underwear .icone{
+    width: 50px;
+    margin-top: 10px;
+}
+
 .underwear h1{
     display: inline-block;
     font-size: 30px;
@@ -144,7 +149,7 @@ header input ::-webkit-search-cancel-button{
     vertical-align: middle;
 }
 
-.camisa{
+.icone-underwear{
     display: inline-block;
     width: 50px;
     vertical-align: middle;
