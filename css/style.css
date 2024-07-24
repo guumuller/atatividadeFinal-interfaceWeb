@@ -126,7 +126,7 @@ header input ::-webkit-search-cancel-button{
 }
 
 .banner{
-    background-image: url(/images/banner.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
     text-align: center;
